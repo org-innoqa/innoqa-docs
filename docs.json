@@ -1,0 +1,65 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Humainum Docs",
+  "description": "AI agents and human experts, building on real code.",
+  "colors": {
+    "primary": "#008fb3",
+    "light": "#00aeef",
+    "dark": "#005568"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://humainum.com"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get started",
+            "pages": ["index", "getting-started"]
+          },
+          {
+            "group": "Platform",
+            "pages": [
+              "the-agent",
+              "expert-network",
+              "native-mobile-apps",
+              "ownership-and-security"
+            ]
+          },
+          {
+            "group": "Modules",
+            "pages": ["modules/overview"]
+          },
+          {
+            "group": "Pricing & support",
+            "pages": ["pricing-and-credits", "faq"]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://humainum.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Start building",
+      "href": "https://humainum.com/register"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://humainum.com"
+    }
+  }
+}

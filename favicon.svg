@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="humainumGradient" x1="110" y1="70" x2="420" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08A8FF"/>
+      <stop offset="48%" stop-color="#1767F2"/>
+      <stop offset="100%" stop-color="#8B2CFF"/>
+    </linearGradient>
+
+    <linearGradient id="pixelGradient" x1="20" y1="90" x2="90" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08A8FF"/>
+      <stop offset="100%" stop-color="#7B2DFF"/>
+    </linearGradient>
+
+    <linearGradient id="nodeGradient" x1="256" y1="120" x2="256" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5CC9FF"/>
+      <stop offset="100%" stop-color="#08A8FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Digital pixels -->
+  <rect x="34" y="108" width="22" height="22" rx="5" fill="url(#pixelGradient)"/>
+  <rect x="76" y="130" width="34" height="34" rx="7" fill="url(#pixelGradient)"/>
+  <rect x="6" y="150" width="18" height="18" rx="4" fill="url(#pixelGradient)"/>
+  <rect x="41" y="175" width="38" height="38" rx="8" fill="url(#pixelGradient)"/>
+
+  <!-- Left pillar of H -->
+  <path
+    d="M120 405V150C120 143 125 138 132 138H176C183 138 188 143 188 150V405H120Z"
+    fill="url(#humainumGradient)"
+  />
+
+  <!-- Right pillar of H -->
+  <path
+    d="M324 405V150C324 143 329 138 336 138H380C387 138 392 143 392 150V405H324Z"
+    fill="url(#humainumGradient)"
+  />
+
+  <!-- Crossbar of H -->
+  <path
+    d="M188 258C188 251 193 246 200 246H312C319 246 324 251 324 258V298C324 305 319 310 312 310H200C193 310 188 305 188 298V258Z"
+    fill="url(#humainumGradient)"
+  />
+
+  <!-- Neural node accent -->
+  <circle cx="256" cy="278" r="16" fill="url(#nodeGradient)"/>
+</svg>
