@@ -15,61 +15,122 @@
     "href": "https://humainum.com"
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Docs",
-        "icon": "book-open",
-        "groups": [
+        "language": "en",
+        "default": true,
+        "tabs": [
           {
-            "group": "Get started",
-            "pages": ["index", "getting-started"]
-          },
-          {
-            "group": "Platform",
-            "pages": [
-              "the-agent",
-              "expert-network",
-              "native-mobile-apps",
-              "ownership-and-security"
+            "tab": "Docs",
+            "icon": "book-open",
+            "groups": [
+              { "group": "Get started", "pages": ["index", "getting-started"] },
+              { "group": "Platform", "pages": ["the-agent", "expert-network", "native-mobile-apps", "ownership-and-security"] },
+              { "group": "Modules", "pages": ["modules/overview"] },
+              { "group": "Pricing", "pages": ["pricing-and-credits"] }
             ]
           },
           {
-            "group": "Modules",
-            "pages": ["modules/overview"]
+            "tab": "Guides",
+            "icon": "graduation-cap",
+            "groups": [
+              {
+                "group": "Common tasks",
+                "pages": [
+                  "guides/import-a-website",
+                  "guides/import-a-mobile-app",
+                  "guides/bring-your-own-model",
+                  "guides/work-with-an-expert",
+                  "guides/install-a-module"
+                ]
+              }
+            ]
           },
           {
-            "group": "Pricing",
-            "pages": ["pricing-and-credits"]
-          }
-        ]
-      },
-      {
-        "tab": "Guides",
-        "icon": "graduation-cap",
-        "groups": [
-          {
-            "group": "Common tasks",
-            "pages": [
-              "guides/import-a-website",
-              "guides/import-a-mobile-app",
-              "guides/bring-your-own-model",
-              "guides/work-with-an-expert",
-              "guides/install-a-module"
+            "tab": "FAQ & Support",
+            "icon": "circle-question",
+            "groups": [
+              { "group": "Answers", "pages": ["faq"] },
+              { "group": "Get help", "pages": ["support/contact"] }
             ]
           }
         ]
       },
       {
-        "tab": "FAQ & Support",
-        "icon": "circle-question",
-        "groups": [
+        "language": "tr",
+        "tabs": [
           {
-            "group": "Answers",
-            "pages": ["faq"]
+            "tab": "Dokümantasyon",
+            "icon": "book-open",
+            "groups": [
+              { "group": "Başlarken", "pages": ["tr/index", "tr/getting-started"] },
+              { "group": "Platform", "pages": ["tr/the-agent", "tr/expert-network", "tr/native-mobile-apps", "tr/ownership-and-security"] },
+              { "group": "Modüller", "pages": ["tr/modules/overview"] },
+              { "group": "Fiyatlandırma", "pages": ["tr/pricing-and-credits"] }
+            ]
           },
           {
-            "group": "Get help",
-            "pages": ["support/contact"]
+            "tab": "Rehberler",
+            "icon": "graduation-cap",
+            "groups": [
+              {
+                "group": "Sık yapılan işlemler",
+                "pages": [
+                  "tr/guides/import-a-website",
+                  "tr/guides/import-a-mobile-app",
+                  "tr/guides/bring-your-own-model",
+                  "tr/guides/work-with-an-expert",
+                  "tr/guides/install-a-module"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "SSS ve Destek",
+            "icon": "circle-question",
+            "groups": [
+              { "group": "Yanıtlar", "pages": ["tr/faq"] },
+              { "group": "Yardım al", "pages": ["tr/support/contact"] }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ar",
+        "tabs": [
+          {
+            "tab": "التوثيق",
+            "icon": "book-open",
+            "groups": [
+              { "group": "البدء", "pages": ["ar/index", "ar/getting-started"] },
+              { "group": "المنصة", "pages": ["ar/the-agent", "ar/expert-network", "ar/native-mobile-apps", "ar/ownership-and-security"] },
+              { "group": "الوحدات", "pages": ["ar/modules/overview"] },
+              { "group": "التسعير", "pages": ["ar/pricing-and-credits"] }
+            ]
+          },
+          {
+            "tab": "الأدلة",
+            "icon": "graduation-cap",
+            "groups": [
+              {
+                "group": "المهام الشائعة",
+                "pages": [
+                  "ar/guides/import-a-website",
+                  "ar/guides/import-a-mobile-app",
+                  "ar/guides/bring-your-own-model",
+                  "ar/guides/work-with-an-expert",
+                  "ar/guides/install-a-module"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "الأسئلة الشائعة والدعم",
+            "icon": "circle-question",
+            "groups": [
+              { "group": "الإجابات", "pages": ["ar/faq"] },
+              { "group": "احصل على المساعدة", "pages": ["ar/support/contact"] }
+            ]
           }
         ]
       }
