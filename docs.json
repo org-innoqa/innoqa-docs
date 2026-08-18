@@ -17,7 +17,8 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Docs",
+        "icon": "book-open",
         "groups": [
           {
             "group": "Get started",
@@ -37,8 +38,38 @@
             "pages": ["modules/overview"]
           },
           {
-            "group": "Pricing & support",
-            "pages": ["pricing-and-credits", "faq"]
+            "group": "Pricing",
+            "pages": ["pricing-and-credits"]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "icon": "graduation-cap",
+        "groups": [
+          {
+            "group": "Common tasks",
+            "pages": [
+              "guides/import-a-website",
+              "guides/import-a-mobile-app",
+              "guides/bring-your-own-model",
+              "guides/work-with-an-expert",
+              "guides/install-a-module"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQ & Support",
+        "icon": "circle-question",
+        "groups": [
+          {
+            "group": "Answers",
+            "pages": ["faq"]
+          },
+          {
+            "group": "Get help",
+            "pages": ["support/contact"]
           }
         ]
       }
