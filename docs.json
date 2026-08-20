@@ -4,9 +4,9 @@
   "name": "Humainum Docs",
   "description": "AI agents and human experts, building on real code.",
   "colors": {
-    "primary": "#008fb3",
-    "light": "#00aeef",
-    "dark": "#005568"
+    "primary": "#073B3A",
+    "light": "#35D6A0",
+    "dark": "#052D2C"
   },
   "favicon": "/favicon.svg",
   "logo": {

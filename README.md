@@ -6,7 +6,8 @@ The content and config for Humainum's documentation site, built for [Mintlify](h
 
 Every `.mdx` page states a fact that's already true and published elsewhere on [humainum.com](https://humainum.com) (the landing pages, the FAQ, the module data) — nothing invented for this site. `modules/overview.mdx` is a snapshot of the real module list at the time it was written; check the [live Toolbox](https://humainum.com/modules) for current status.
 
-- `docs.json` — navigation, Humainum's real brand blue, logo, favicon
+- `docs.json` — navigation, Trust Bridge brand colors (Deep Trust / AI Mint), logo, favicon
+- `logo/light.svg`, `logo/dark.svg`, `favicon.svg` — official marks from `ai-webapp-builder-frontend/public/Branding/` (`humainum-main.svg`, `humainum-white.svg`, `humainum-icon-main.svg`); re-copy from there if the source assets change
 - `index.mdx`, `getting-started.mdx`, `the-agent.mdx`, `expert-network.mdx`, `native-mobile-apps.mdx`, `ownership-and-security.mdx`, `pricing-and-credits.mdx`, `faq.mdx`, `modules/overview.mdx`
 
 ## Publishing this repo to GitHub
