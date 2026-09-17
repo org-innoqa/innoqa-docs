@@ -2,7 +2,32 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Humainum Docs",
-  "description": "Humainum is the human-backed AI business platform: AI agents build real code, and verified human experts step in whenever AI isn't enough.",
+  "description": "Official documentation for Humainum, the human-backed AI business platform: AI agents build real code in a real GitHub repository, vetted human experts step in whenever AI isn't enough, and the Toolbox adds CRM, bookings, chat, SEO and more.",
+  "seo": {
+    "metatags": {
+      "canonical": "https://docs.humainum.com",
+      "og:site_name": "Humainum Docs",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@humainumai",
+      "twitter:creator": "@humainumai",
+      "author": "Humainum",
+      "category": "Technology"
+    },
+    "organization": {
+      "id": "https://humainum.com/#org",
+      "name": "Humainum",
+      "url": "https://humainum.com",
+      "logo": "https://humainum.com/favicon.png",
+      "sameAs": [
+        "https://www.linkedin.com/company/humainum/",
+        "https://x.com/humainumai",
+        "https://www.instagram.com/humainum.ai/",
+        "https://www.youtube.com/@humainumai",
+        "https://www.tiktok.com/@humainum.ai",
+        "https://www.reddit.com/u/Humainum/s/NYC9f8ivos"
+      ]
+    }
+  },
   "colors": {
     "primary": "#073B3A",
     "light": "#35D6A0",
